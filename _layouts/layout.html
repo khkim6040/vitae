@@ -27,24 +27,22 @@
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
-        <p>
+        <!-- <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-        </p>
+        </p> -->
         <address>
             <a href="{{ site.google_maps }}">
-                {{ site.address.street }}<br/>
-                {{ site.address.postcode }}<br/>
+                <!-- {{ site.address.street }}<br/> -->
+                <!-- {{ site.address.postcode }}<br/> -->
                 {{ site.address.city }}<br/>
                 {{ site.address.country }}
             </a>
         </address>
         <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
-        </p>
-        <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="{{ site.blog_full }}"><i class="fa fa-home"></i> Blog </a> <br/>
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> <br/>
+            <a href="{{ site.contact_full }}"><i class="fa fa-envelope"></i> Contact </a> <br/>
+            <!-- <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a> -->
         </p>
     </header>
     <div class="thirteen columns clearfix">
