@@ -8,26 +8,20 @@ plugins: [jekyll-paginate]
 port: 4000
 safe: true
 url: http://jekyllt.github.io/vitae
-author: Fábio Madeira
+author: Gwanho Kim
 
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
+baseurl: /
 title: Gwanho Kim's Resume
 name: Gwanho Kim
-contact: Contact@
-contact_full: khkim6040@gmail.com
-blog: blog
-blog_full: https://blog.naver.com/ho0ou
-github: khkim6040
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
+contact: khkim6040@gmail.com
+blog: https://blog.naver.com/ho0ou
+github: https://github.com/khkim6040
+soundcloud: https://soundcloud.com/ho0ou
 google_maps: 'https://www.postech.ac.kr/eng/'
 address:
-  street: 
-  postcode: 
   city: POSTECH
   country: South Korea
 google_analytics: UA-69300817-1
