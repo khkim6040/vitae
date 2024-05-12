@@ -7,13 +7,16 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://jekyllt.github.io/vitae
+url: https://khkim6040.github.io
+github: 
+  username: khkim6040
 author: Gwanho Kim
 
 # edit this section with your information
 # jekyllt.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
+# bundle exec jekyll serve
+baseurl: /
 title: Gwanho Kim's Resume
 name: Gwanho Kim
 contact: khkim6040@gmail.com
